@@ -16,11 +16,16 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/daslaf/ui/tree/master/packages/ui",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/daslaf/ui",
+    "directory": "packages/ui"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/daslaf/ui/issues"
-  }
+  },
+  "gitHead": "b72a48f1fde4e694acc839d1a1b052474bc501d4"
 }
