@@ -1,8 +1,10 @@
 {
-  "name": "@daslaf/ui",
-  "version": "1.0.0",
-  "description": "A micro css library for basic ui elements ",
-  "main": "index.js",
-  "author": "Osman Cea <osman.cea@gmail.com>",
-  "license": "MIT"
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
