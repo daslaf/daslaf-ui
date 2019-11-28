@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/daslaf/ui",
+    "url": "ssh://git@github.com/daslaf/daslaf-ui",
     "directory": "packages/ui"
   },
   "scripts": {
@@ -27,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/daslaf/ui/issues"
   },
-  "gitHead": "4eb781ebecfec1084f5fbebf54d4ddc77c943b5c"
+  "gitHead": "9d2d36a18d616bcda7072080d746a201d8ccb93c"
 }
