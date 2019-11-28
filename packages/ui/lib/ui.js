@@ -2,7 +2,6 @@
 
 module.exports = ui;
 
-function ui() {
-    // TODO
-    console.log('Hello!')
+function ui(person = 'Human') {
+    console.log(`Hello, ${person}!`)
 }
