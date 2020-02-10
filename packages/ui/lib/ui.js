@@ -1,7 +1,7 @@
 'use strict';
 
 function ui(person = 'Human') {
-    console.log(`Hello, ${person}!`);
+    console.log(`Greetings, ${person}!`);
 }
 
 module.exports = ui;
